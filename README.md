@@ -1,15 +1,13 @@
 import requests
 
-TOKEN = "8842816335:AAE7t2r6QezaHBgpCM7HfzRqblNq1h07ZoY"
-CHAT_ID = "https://t.me/goldmohamedmm"
-
-message = "🟢 تم تشغيل بوت الذهب بنجاح!"
+TOKEN = "8842816335:AAEIy3Hbaj3WMJju0rfDQhAn0nQotOwuBv4"
+CHAT_ID = "https://t.me/goldsignals20266"
 
 url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 data = {
     "chat_id": CHAT_ID,
-    "text": message
+    "text": "🟢 البوت يعمل الآن"
 }
 
 requests.post(url, data=data)
